@@ -22,7 +22,11 @@ Yes. To do this, authorize your app using the Operator Extension, `101` by defau
 
 ### Can I send a SMS message from another extension?
 
-You can only send SMS messages for the extension that has authorized your app.
+No, you cannot. You can only send SMS messages for the extension that has authorized your app. For instance, if you logged in as an extension 102, you can only send SMS from phone numbers assigned to the extension 102.
+
+### Can I send a SMS message from a phone number which belongs to another extension under the same account?
+
+No, you cannot send SMS messages from a phone number which does not belong to the extension that has authorized your app. This restriction applies also to extensions with the admin role.
 
 ### Can I send SMS from the main company number and also have multiple users respond to that number?
 
